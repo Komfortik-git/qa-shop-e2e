@@ -156,3 +156,5 @@ docker compose -f compose.observability.yaml --profile public stop
 - В evidence/e2e-public.json зафиксировано побайтовое совпадение runtime-файлов с исходным архивом.
 
 Повторная проверка мониторинга на машине со стендом: `node tools/verify-monitoring.js`. Для иных публичных адресов задайте `SHOP_URL` и `GRAFANA_URL`; Prometheus проверяется локально на порту 19090.
+
+В CI также выполняется `public-smoke`: GitHub runner проверяет публичные магазин, /metrics и анонимный дашборд Grafana без VPN и авторизации. Адреса заданы в repository variables `SHOP_URL` и `GRAFANA_URL`; при смене туннелей обновите их. В форках без этих variables проверка пропускается, а локальные e2e выполняются.

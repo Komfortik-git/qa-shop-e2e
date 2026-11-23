@@ -26,3 +26,17 @@ jobs:
             playwright-report/
             test-results/
           retention-days: 14
+
+  public-smoke:
+    if: ${{ vars.SHOP_URL != '' && vars.GRAFANA_URL != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      SHOP_URL: ${{ vars.SHOP_URL }}
+      GRAFANA_URL: ${{ vars.GRAFANA_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node tools/check-public.js
