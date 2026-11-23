@@ -34,10 +34,17 @@ async function register(page) {
 async function checkout(page, { delivery = 'pickup', payment = 'cash' } = {}) {
   await cart(page);
   await page.getByRole('link', { name: 'Оформить заказ', exact: true }).click();
+  // The form appears before the initial delivery calculation and route scroll finish.
+  await expect(page.locator('#checkout').getByTestId('total')).toBeVisible();
   await page.getByLabel('Имя получателя').fill('Тестовый Покупатель');
   await page.getByLabel('Телефон', { exact: true }).fill('+7 900 000-00-00');
-  await page.getByLabel(delivery === 'pickup' ? 'Самовывоз' : 'Курьером', { exact: true }).check();
+  const deliveryOption = page.getByLabel(delivery === 'pickup' ? 'Самовывоз' : 'Курьером', { exact: true });
+  // Click the visible label, then verify the actual radio state (also on Firefox/Linux).
+  await deliveryOption.locator('..').click();
+  await expect(deliveryOption).toBeChecked();
   if (delivery === 'courier') await page.getByLabel('Адрес доставки').fill('Тестовый адрес, дом 1');
-  await page.getByLabel(payment === 'cash' ? 'Наличными' : 'Картой при получении', { exact: true }).check();
+  const paymentOption = page.getByLabel(payment === 'cash' ? 'Наличными' : 'Картой при получении', { exact: true });
+  await paymentOption.locator('..').click();
+  await expect(paymentOption).toBeChecked();
 }
 module.exports = { money, open, add, cart, promo, register, checkout };
