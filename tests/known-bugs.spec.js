@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 const { open, add, checkout, register } = require('./helpers');
-function knownBug(id) { test.fail(process.env.STRICT_BUGS !== '1', id + ': see README'); }
+const { knownBug } = require('./bugs');
 
 test('BUG-01: поле адреса должно скрываться при самовывозе', async ({ page }) => {
   await add(page, 1);

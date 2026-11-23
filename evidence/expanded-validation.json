@@ -1,0 +1,1658 @@
+{
+  "startTime": "2026-11-23T09:38:39.334Z",
+  "durationMs": 181541.58800000002,
+  "operatingSystem": "win32",
+  "nodeVersion": "v24.16.0",
+  "playwrightVersion": "1.65.1",
+  "authoredScenarios": 54,
+  "executions": 153,
+  "bugIds": [
+    "BUG-01",
+    "BUG-02",
+    "BUG-03",
+    "BUG-04",
+    "BUG-05",
+    "BUG-06"
+  ],
+  "projects": {
+    "chromium": {
+      "total": 45,
+      "passed": 39,
+      "expectedFailures": 6,
+      "skipped": 0,
+      "unexpected": 0
+    },
+    "firefox": {
+      "total": 45,
+      "passed": 39,
+      "expectedFailures": 6,
+      "skipped": 0,
+      "unexpected": 0
+    },
+    "webkit": {
+      "total": 45,
+      "passed": 39,
+      "expectedFailures": 6,
+      "skipped": 0,
+      "unexpected": 0
+    },
+    "mobile-chromium": {
+      "total": 9,
+      "passed": 8,
+      "expectedFailures": 1,
+      "skipped": 0,
+      "unexpected": 0
+    },
+    "mobile-webkit": {
+      "total": 9,
+      "passed": 8,
+      "expectedFailures": 1,
+      "skipped": 0,
+      "unexpected": 0
+    }
+  },
+  "stats": {
+    "startTime": "2026-11-23T09:38:39.334Z",
+    "duration": 181541.58800000002,
+    "expected": 153,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "регистрация, сохранение входа, выход и повторный вход",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 691,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "регистрация, сохранение входа, выход и повторный вход",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 3169,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "регистрация, сохранение входа, выход и повторный вход",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1116,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "регистрация: обязательные поля и повторный email",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 550,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "регистрация: обязательные поля и повторный email",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1454,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "регистрация: обязательные поля и повторный email",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1024,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "неверный пароль не авторизует пользователя",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 498,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "неверный пароль не авторизует пользователя",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1102,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "неверный пароль не авторизует пользователя",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 864,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "гостю недоступна история заказов, пустую корзину нельзя оформить",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 178,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "гостю недоступна история заказов, пустую корзину нельзя оформить",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 394,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "гостю недоступна история заказов, пустую корзину нельзя оформить",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 489,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "оформление: обязательные поля и переключение способов доставки",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 524,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "оформление: обязательные поля и переключение способов доставки",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 590,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "оформление: обязательные поля и переключение способов доставки",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 989,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "порог бесплатной доставки считается после скидки",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 605,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "порог бесплатной доставки считается после скидки",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 632,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "порог бесплатной доставки считается после скидки",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1006,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "гостевой заказ courier: сумма, очищенная корзина и остаток",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 612,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "гостевой заказ courier: сумма, очищенная корзина и остаток",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 805,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "гостевой заказ courier: сумма, очищенная корзина и остаток",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1211,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "гостевой заказ pickup: сумма, очищенная корзина и остаток",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 684,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "гостевой заказ pickup: сумма, очищенная корзина и остаток",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 957,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "гостевой заказ pickup: сумма, очищенная корзина и остаток",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1206,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "заказ с промокодом появляется в истории аккаунта",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 955,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "заказ с промокодом появляется в истории аккаунта",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 976,
+      "bugs": []
+    },
+    {
+      "file": "auth-checkout.spec.js",
+      "title": "заказ с промокодом появляется в истории аккаунта",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1597,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "корзина: добавление, количество, суммы, перезагрузка и удаление",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 563,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "корзина: добавление, количество, суммы, перезагрузка и удаление",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1085,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "корзина: добавление, количество, суммы, перезагрузка и удаление",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1005,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "очистка нескольких товаров сбрасывает промокод",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 677,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "очистка нескольких товаров сбрасывает промокод",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 766,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "очистка нескольких товаров сбрасывает промокод",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1262,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "превышение остатка отклоняется без изменения корзины",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 358,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "превышение остатка отклоняется без изменения корзины",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 550,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "превышение остатка отклоняется без изменения корзины",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 738,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "разные браузерные сессии имеют отдельные корзины",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 375,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "разные браузерные сессии имеют отдельные корзины",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 785,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "разные браузерные сессии имеют отдельные корзины",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 937,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "SALE10: регистр, пробелы, точная скидка и отмена",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 521,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "SALE10: регистр, пробелы, точная скидка и отмена",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 571,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "SALE10: регистр, пробелы, точная скидка и отмена",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 933,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "WELCOME500: ниже порога отклонён, на 2000 применён",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 693,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "WELCOME500: ниже порога отклонён, на 2000 применён",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 690,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "WELCOME500: ниже порога отклонён, на 2000 применён",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1198,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "неизвестный код не отменяет ранее применённую скидку",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 515,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "неизвестный код не отменяет ранее применённую скидку",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 650,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "неизвестный код не отменяет ранее применённую скидку",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 922,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "WELCOME500 перестаёт действовать после снижения суммы ниже порога",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 482,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "WELCOME500 перестаёт действовать после снижения суммы ниже порога",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 664,
+      "bugs": []
+    },
+    {
+      "file": "cart-promo.spec.js",
+      "title": "WELCOME500 перестаёт действовать после снижения суммы ниже порога",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 893,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "каталог: 16 товаров, карточка, цена и описание",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 292,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "каталог: 16 товаров, карточка, цена и описание",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 578,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "каталог: 16 товаров, карточка, цена и описание",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 487,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "поиск по названию/описанию:   иРгАчЕфФ  ",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 489,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "поиск по названию/описанию:   иРгАчЕфФ  ",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1101,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "поиск по названию/описанию:   иРгАчЕфФ  ",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 780,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "поиск по названию/описанию: бергамота",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 519,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "поиск по названию/описанию: бергамота",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 725,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "поиск по названию/описанию: бергамота",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 796,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "пустая выдача и восстановление каталога",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 851,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "пустая выдача и восстановление каталога",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 996,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "пустая выдача и восстановление каталога",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1269,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "категория и поиск работают совместно",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 832,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "категория и поиск работают совместно",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1022,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "категория и поиск работают совместно",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1004,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "сортировка price_asc",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 484,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "сортировка price_asc",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 647,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "сортировка price_asc",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 750,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "сортировка price_desc",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 477,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "сортировка price_desc",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 653,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "сортировка price_desc",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 762,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "сортировка name",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 485,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "сортировка name",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 635,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "сортировка name",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 740,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "нет в наличии: добавление недоступно в каталоге и карточке",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 262,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "нет в наличии: добавление недоступно в каталоге и карточке",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 418,
+      "bugs": []
+    },
+    {
+      "file": "catalog.spec.js",
+      "title": "нет в наличии: добавление недоступно в каталоге и карточке",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 484,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — 2990: ниже порога",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 566,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — 2990: ниже порога",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 748,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — 2990: ниже порога",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1077,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — 3000: ровно на пороге",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 707,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — 3000: ровно на пороге",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 971,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — 3000: ровно на пороге",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1259,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — 3010: выше порога",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 581,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — 3010: выше порога",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1237,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — 3010: выше порога",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1029,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — WELCOME500: 3500 минус 500 равно 3000",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 522,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — WELCOME500: 3500 минус 500 равно 3000",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 624,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — WELCOME500: 3500 минус 500 равно 3000",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 922,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — SALE10: 3330 минус 333 равно 2997",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 743,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — SALE10: 3330 минус 333 равно 2997",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 830,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — SALE10: 3330 минус 333 равно 2997",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1388,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — SALE10: 3340 минус 334 равно 3006",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 576,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — SALE10: 3340 минус 334 равно 3006",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 671,
+      "bugs": []
+    },
+    {
+      "file": "delivery-boundaries.spec.js",
+      "title": "доставка — SALE10: 3340 минус 334 равно 3006",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1063,
+      "bugs": []
+    },
+    {
+      "file": "inventory.spec.js",
+      "title": "два покупателя: последняя единица продаётся ровно один раз",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1660,
+      "bugs": [],
+      "inventory": {
+        "statuses": [
+          201,
+          409
+        ],
+        "remainingStock": 0,
+        "savedOrders": 1
+      }
+    },
+    {
+      "file": "inventory.spec.js",
+      "title": "два покупателя: последняя единица продаётся ровно один раз",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 2071,
+      "bugs": [],
+      "inventory": {
+        "statuses": [
+          201,
+          409
+        ],
+        "remainingStock": 0,
+        "savedOrders": 1
+      }
+    },
+    {
+      "file": "inventory.spec.js",
+      "title": "два покупателя: последняя единица продаётся ровно один раз",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 4266,
+      "bugs": [],
+      "inventory": {
+        "statuses": [
+          201,
+          409
+        ],
+        "remainingStock": 0,
+        "savedOrders": 1
+      }
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-01: поле адреса должно скрываться при самовывозе",
+      "project": "chromium",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 7594,
+      "bugs": [
+        "BUG-01"
+      ]
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-01: поле адреса должно скрываться при самовывозе",
+      "project": "firefox",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 7576,
+      "bugs": [
+        "BUG-01"
+      ]
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-01: поле адреса должно скрываться при самовывозе",
+      "project": "webkit",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 7943,
+      "bugs": [
+        "BUG-01"
+      ]
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-02: нулевое количество должно отклоняться",
+      "project": "chromium",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 268,
+      "bugs": [
+        "BUG-02"
+      ]
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-02: нулевое количество должно отклоняться",
+      "project": "firefox",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 411,
+      "bugs": [
+        "BUG-02"
+      ]
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-02: нулевое количество должно отклоняться",
+      "project": "webkit",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 494,
+      "bugs": [
+        "BUG-02"
+      ]
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-03: другой аккаунт не должен видеть чужой заказ",
+      "project": "chromium",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 7977,
+      "bugs": [
+        "BUG-03"
+      ]
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-03: другой аккаунт не должен видеть чужой заказ",
+      "project": "firefox",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 7956,
+      "bugs": [
+        "BUG-03"
+      ]
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-03: другой аккаунт не должен видеть чужой заказ",
+      "project": "webkit",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 8665,
+      "bugs": [
+        "BUG-03"
+      ]
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-04: телефон из одной цифры и дефисов отклоняется",
+      "project": "chromium",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 578,
+      "bugs": [
+        "BUG-04"
+      ]
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-04: телефон из одной цифры и дефисов отклоняется",
+      "project": "firefox",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 674,
+      "bugs": [
+        "BUG-04"
+      ]
+    },
+    {
+      "file": "known-bugs.spec.js",
+      "title": "BUG-04: телефон из одной цифры и дефисов отклоняется",
+      "project": "webkit",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 927,
+      "bugs": [
+        "BUG-04"
+      ]
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "карточка: количество -1 отклоняется без изменения корзины",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 390,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "карточка: количество -1 отклоняется без изменения корзины",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 935,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "карточка: количество -1 отклоняется без изменения корзины",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 703,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "карточка: количество 1.5 отклоняется без изменения корзины",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 379,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "карточка: количество 1.5 отклоняется без изменения корзины",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 565,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "карточка: количество 1.5 отклоняется без изменения корзины",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 754,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "карточка: количество 9999 отклоняется без изменения корзины",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 391,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "карточка: количество 9999 отклоняется без изменения корзины",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 515,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "карточка: количество 9999 отклоняется без изменения корзины",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 744,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "корзина: количество -1 отклоняется и восстанавливается",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 354,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "корзина: количество -1 отклоняется и восстанавливается",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 556,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "корзина: количество -1 отклоняется и восстанавливается",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 683,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "корзина: количество 1.5 отклоняется и восстанавливается",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 357,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "корзина: количество 1.5 отклоняется и восстанавливается",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 530,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "корзина: количество 1.5 отклоняется и восстанавливается",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 728,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "корзина: уменьшение количества с 1 до 0 удаляет позицию",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 387,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "корзина: уменьшение количества с 1 до 0 удаляет позицию",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 497,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "корзина: уменьшение количества с 1 до 0 удаляет позицию",
+      "project": "webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 628,
+      "bugs": []
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "BUG-02: карточка: пустое количество не должно добавлять товар",
+      "project": "chromium",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 238,
+      "bugs": [
+        "BUG-02"
+      ]
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "BUG-02: карточка: пустое количество не должно добавлять товар",
+      "project": "firefox",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 408,
+      "bugs": [
+        "BUG-02"
+      ]
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "BUG-02: карточка: пустое количество не должно добавлять товар",
+      "project": "webkit",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 433,
+      "bugs": [
+        "BUG-02"
+      ]
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "BUG-05: корзина: пустое поле не должно молча удалять позицию",
+      "project": "chromium",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 335,
+      "bugs": [
+        "BUG-05"
+      ]
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "BUG-05: корзина: пустое поле не должно молча удалять позицию",
+      "project": "firefox",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 488,
+      "bugs": [
+        "BUG-05"
+      ]
+    },
+    {
+      "file": "quantity-validation.spec.js",
+      "title": "BUG-05: корзина: пустое поле не должно молча удалять позицию",
+      "project": "webkit",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 683,
+      "bugs": [
+        "BUG-05"
+      ]
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильный каталог: поиск и категория",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1281,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильный каталог: поиск и категория",
+      "project": "mobile-webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1507,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильный заказ: количество, SALE10, самовывоз и очистка корзины",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 749,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильный заказ: количество, SALE10, самовывоз и очистка корзины",
+      "project": "mobile-webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 1033,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильный аккаунт: регистрация, выход и повторный вход",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 561,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильный аккаунт: регистрация, выход и повторный вход",
+      "project": "mobile-webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 765,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "BUG-06: мобильная навигация: пользователь может открыть историю заказов",
+      "project": "mobile-chromium",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 7508,
+      "bugs": [
+        "BUG-06"
+      ]
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "BUG-06: мобильная навигация: пользователь может открыть историю заказов",
+      "project": "mobile-webkit",
+      "expectedStatus": "failed",
+      "actualStatus": "failed",
+      "status": "expected",
+      "durationMs": 7700,
+      "bugs": [
+        "BUG-06"
+      ]
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильная вёрстка: каталог без горизонтального скролла страницы",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 264,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильная вёрстка: каталог без горизонтального скролла страницы",
+      "project": "mobile-webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 336,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильная вёрстка: карточка без горизонтального скролла страницы",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 232,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильная вёрстка: карточка без горизонтального скролла страницы",
+      "project": "mobile-webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 338,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильная вёрстка: корзина без горизонтального скролла страницы",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 390,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильная вёрстка: корзина без горизонтального скролла страницы",
+      "project": "mobile-webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 546,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильная вёрстка: оформление без горизонтального скролла страницы",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 558,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильная вёрстка: оформление без горизонтального скролла страницы",
+      "project": "mobile-webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 740,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильная шапка: имя пользователя и корзина помещаются после входа",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 358,
+      "bugs": []
+    },
+    {
+      "file": "mobile.spec.js",
+      "title": "мобильная шапка: имя пользователя и корзина помещаются после входа",
+      "project": "mobile-webkit",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "status": "expected",
+      "durationMs": 540,
+      "bugs": []
+    }
+  ]
+}

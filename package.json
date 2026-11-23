@@ -7,7 +7,9 @@
     "start": "node server.js",
     "test": "playwright test",
     "test:report": "playwright show-report",
-    "test:bugs": "playwright test tests/known-bugs.spec.js"
+    "test:bugs": "playwright test --grep BUG-",
+    "test:desktop": "playwright test --project=chromium --project=firefox --project=webkit",
+    "test:mobile": "playwright test --project=mobile-chromium --project=mobile-webkit"
   },
   "engines": {
     "node": ">=20"
