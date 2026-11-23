@@ -1,0 +1,200 @@
+{
+  "baseURL": "https://ccd-bracelet-baghdad-bedrooms.trycloudflare.com",
+  "stats": {
+    "startTime": "2026-11-23T09:12:13.612Z",
+    "duration": 74875.94,
+    "expected": 30,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "originalRuntimeUnchanged": {
+    "server.js": true,
+    "products.json": true,
+    "public/app.js": true,
+    "public/index.html": true,
+    "public/style.css": true
+  },
+  "tests": [
+    {
+      "title": "регистрация, сохранение входа, выход и повторный вход",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "регистрация: обязательные поля и повторный email",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "неверный пароль не авторизует пользователя",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "гостю недоступна история заказов, пустую корзину нельзя оформить",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "оформление: обязательные поля и переключение способов доставки",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "порог бесплатной доставки считается после скидки",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "гостевой заказ courier: сумма, очищенная корзина и остаток",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "гостевой заказ pickup: сумма, очищенная корзина и остаток",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "заказ с промокодом появляется в истории аккаунта",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "корзина: добавление, количество, суммы, перезагрузка и удаление",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "очистка нескольких товаров сбрасывает промокод",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "превышение остатка отклоняется без изменения корзины",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "разные браузерные сессии имеют отдельные корзины",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "SALE10: регистр, пробелы, точная скидка и отмена",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "WELCOME500: ниже порога отклонён, на 2000 применён",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "неизвестный код не отменяет ранее применённую скидку",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "WELCOME500 перестаёт действовать после снижения суммы ниже порога",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "каталог: 16 товаров, карточка, цена и описание",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "поиск по названию/описанию:   иРгАчЕфФ  ",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "поиск по названию/описанию: бергамота",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "пустая выдача и восстановление каталога",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "категория и поиск работают совместно",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "сортировка price_asc",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "сортировка price_desc",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "сортировка name",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "нет в наличии: добавление недоступно в каталоге и карточке",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "actualStatus": "passed"
+    },
+    {
+      "title": "BUG-01: поле адреса должно скрываться при самовывозе",
+      "expectedStatus": "failed",
+      "status": "expected",
+      "actualStatus": "failed"
+    },
+    {
+      "title": "BUG-02: нулевое количество должно отклоняться",
+      "expectedStatus": "failed",
+      "status": "expected",
+      "actualStatus": "failed"
+    },
+    {
+      "title": "BUG-03: другой аккаунт не должен видеть чужой заказ",
+      "expectedStatus": "failed",
+      "status": "expected",
+      "actualStatus": "failed"
+    },
+    {
+      "title": "BUG-04: телефон из одной цифры и дефисов отклоняется",
+      "expectedStatus": "failed",
+      "status": "expected",
+      "actualStatus": "failed"
+    }
+  ]
+}

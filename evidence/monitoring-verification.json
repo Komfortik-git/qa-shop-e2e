@@ -1,0 +1,124 @@
+{
+  "checkedAt": "2026-11-23T09:14:23.559Z",
+  "queries": [
+    {
+      "title": "Магазин доступен (1 = да)",
+      "expression": "up{job=\"qa-shop\"}",
+      "series": 1
+    },
+    {
+      "title": "Время работы Node.js",
+      "expression": "time() - process_start_time_seconds{job=\"qa-shop\"}",
+      "series": 1
+    },
+    {
+      "title": "HTTP запросов в секунду (без /metrics)",
+      "expression": "sum(rate(http_requests_total{job=\"qa-shop\",route!=\"/metrics\"}[1m]))",
+      "series": 1
+    },
+    {
+      "title": "Доля HTTP 5xx, %",
+      "expression": "100 * ((sum(rate(http_requests_total{job=\"qa-shop\",route!=\"/metrics\",status=~\"5..\"}[1m])) or vector(0)) / clamp_min(sum(rate(http_requests_total{job=\"qa-shop\",route!=\"/metrics\"}[1m])), 0.000001))",
+      "series": 1
+    },
+    {
+      "title": "API p95 по маршрутам",
+      "expression": "histogram_quantile(0.95, sum by (le, route) (rate(http_request_duration_seconds_bucket{job=\"qa-shop\",route=~\"/api/.*\"}[1m])))",
+      "series": 15
+    },
+    {
+      "title": "HTTP 4xx по маршрутам",
+      "expression": "sum by (route) (rate(http_requests_total{job=\"qa-shop\",status=~\"4..\"}[1m]))",
+      "series": 5
+    },
+    {
+      "title": "Заказов за выбранный период",
+      "expression": "sum(increase(shop_orders_total{job=\"qa-shop\"}[1h])) or vector(0)",
+      "series": 1
+    },
+    {
+      "title": "Сумма оформленных заказов за период",
+      "expression": "sum(increase(shop_revenue_rub_total{job=\"qa-shop\"}[1h]))",
+      "series": 1
+    },
+    {
+      "title": "Оформленные заказы: доставка и оплата",
+      "expression": "sum by (delivery, payment) (rate(shop_orders_total{job=\"qa-shop\"}[1m]))",
+      "series": 2
+    },
+    {
+      "title": "Средняя сумма заказа за период",
+      "expression": "sum(increase(shop_revenue_rub_total{job=\"qa-shop\"}[1h])) / sum(increase(shop_orders_total{job=\"qa-shop\"}[1h]))",
+      "series": 1
+    },
+    {
+      "title": "Добавлено единиц товаров за период",
+      "expression": "sum(increase(shop_cart_items_added_total{job=\"qa-shop\"}[1h]))",
+      "series": 1
+    },
+    {
+      "title": "Зарегистрировано пользователей за период",
+      "expression": "sum(increase(shop_users_registered_total{job=\"qa-shop\"}[1h]))",
+      "series": 1
+    },
+    {
+      "title": "Неудачные входы за период",
+      "expression": "sum(increase(shop_login_failures_total{job=\"qa-shop\"}[1h]))",
+      "series": 1
+    },
+    {
+      "title": "Сессии в памяти процесса",
+      "expression": "shop_active_sessions{job=\"qa-shop\"}",
+      "series": 1
+    },
+    {
+      "title": "Товаров без остатка",
+      "expression": "shop_products_out_of_stock{job=\"qa-shop\"}",
+      "series": 1
+    },
+    {
+      "title": "Память Node.js (RSS)",
+      "expression": "process_resident_memory_bytes{job=\"qa-shop\"}",
+      "series": 1
+    },
+    {
+      "title": "CPU Node.js",
+      "expression": "rate(process_cpu_seconds_total{job=\"qa-shop\"}[1m]) * 100",
+      "series": 1
+    },
+    {
+      "title": "Задержка event loop p99",
+      "expression": "nodejs_eventloop_lag_p99_seconds{job=\"qa-shop\"}",
+      "series": 1
+    },
+    {
+      "title": "Всего заказов с запуска процесса",
+      "expression": "sum(shop_orders_total{job=\"qa-shop\"}) or vector(0)",
+      "series": 1
+    },
+    {
+      "title": "Сумма заказов с запуска процесса",
+      "expression": "sum(shop_revenue_rub_total{job=\"qa-shop\"})",
+      "series": 1
+    }
+  ],
+  "target": [
+    {
+      "health": "up",
+      "lastError": "",
+      "scrapeUrl": "http://shop:3000/metrics"
+    }
+  ],
+  "shop": {
+    "url": "https://ccd-bracelet-baghdad-bedrooms.trycloudflare.com",
+    "status": 200,
+    "products": 16
+  },
+  "grafana": {
+    "url": "https://orbit-build-opportunity-alexandria.trycloudflare.com/d/qa-shop",
+    "status": 200,
+    "anonymousDashboardStatus": 200,
+    "panels": 20,
+    "browserErrors": []
+  }
+}
